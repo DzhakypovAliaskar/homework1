@@ -18,6 +18,7 @@ public class Main {
             System.out.println("лучше остаться дома!");
         } else {
             System.out.println("лучше делай д.з!");
+
         }
     }
 
