@@ -6,7 +6,8 @@ public class Main {
     public static int age = 25, temp = 15;
 
     public static void main(String[] args) {
-        System.out.println(example("Эльдар", 20));
+
+        System.out.println(Result());
 
         if (age < 45 && age > 10 && temp < 30 && temp > -20) {
             System.out.println("можно идти гулять!");
@@ -19,7 +20,10 @@ public class Main {
             System.out.println("лучше делай д.з!");
         }
     }
-    public static String example(String name, int age) {
-        return "My names " + name + " I'm " + age;
+
+    public static String Result() {
+        String name = "Islam ";
+        int age1 = 23;
+        return name + age1;
     }
 }
